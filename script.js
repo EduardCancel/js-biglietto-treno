@@ -26,8 +26,21 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 /* Raccolta dati */
 
-const utente_distanza = prompt("scegli quanti chilometri vuoi percorre per il viaggio")
-console.log(utente_distanza);
+const user_distance = prompt("scegli quanti chilometri vuoi percorre per il viaggio")
+console.log(user_distance);
 
-const utente_età = prompt("definisci la tua età")
-console.log(utente_età);
+const user_age = Number(prompt("definisci la tua età"))
+console.log(user_age);
+
+const price_km = 0.21;
+console.log(price_km);
+
+const cost_voyage = user_distance * price_km;
+console.log(cost_voyage);
+
+const price_20 = cost_voyage - cost_voyage / 100 * 20;
+console.log(price_20);
+
+
+const price_40 = cost_voyage - cost_voyage / 100 * 40;
+console.log(price_40);
