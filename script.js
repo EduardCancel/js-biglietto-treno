@@ -47,14 +47,14 @@ console.log(price_40);
 
 /* Calcolo costo viaggio */
 
-if (age < 18){
+if (user_age < 18){
 
     console.log(price_20);
 
-} else if ( age >= 65) {
+} else if ( user_age >= 65) {
 
     console.log(price_40);
 
 } else{
-
+console.log(price_km);
 }
