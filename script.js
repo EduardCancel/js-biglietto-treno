@@ -26,7 +26,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 
 /* Raccolta dati */
 
-const user_distance = prompt("scegli quanti chilometri vuoi percorre per il viaggio")
+const user_distance = Number(prompt("scegli quanti chilometri vuoi percorre per il viaggio"))
 console.log(user_distance);
 
 const user_age = Number(prompt("definisci la tua età"))
