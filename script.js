@@ -38,11 +38,11 @@ console.log(price_km);
 const cost_voyage = user_distance * price_km;
 console.log(cost_voyage);
 
-const price_20 = cost_voyage - (cost_voyage / 100) * 20 .toFixed(2);
+const price_20 = cost_voyage - ((cost_voyage / 100) * 20).toFixed(2);
 console.log(price_20);
 
 
-const price_40 = cost_voyage - (cost_voyage / 100) * 40 .toFixed(2);
+const price_40 = cost_voyage - ((cost_voyage / 100) * 40).toFixed(2);
 console.log(price_40);
 
 /* Calcolo costo viaggio */
@@ -56,5 +56,5 @@ if (user_age < 18){
     console.log(price_40);
 
 } else{
-console.log(price_km);
+console.log(cost_voyage);
 }
